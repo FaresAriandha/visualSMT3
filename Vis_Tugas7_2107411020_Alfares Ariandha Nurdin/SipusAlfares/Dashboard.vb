@@ -1,7 +1,7 @@
 ﻿Public Class Dashboard
     Public Shared dataPerpus As DataPerpus
     Public Shared selectedCollection As String
-
+    Public Shared selectedTableKoleksi As Integer
 
     Public Sub New()
 
@@ -65,10 +65,35 @@
     Public Sub UpdateDataTableArrayList()
         DataGridKoleksi.Rows.Clear()
         For Each rowKoleksi In dataPerpus.getKoleksiDataTable()
-            Dim dataTable As String() = {rowKoleksi(0), rowKoleksi(10), rowKoleksi(1), rowKoleksi(3), rowKoleksi(4)}
+            Dim dataTable As String() = {rowKoleksi(0), rowKoleksi(10), rowKoleksi(9), rowKoleksi(1), rowKoleksi(3), rowKoleksi(4)}
             DataGridKoleksi.Rows.Add(dataTable)
         Next
 
+    End Sub
+
+    Private Sub DataGridKoleksi_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridKoleksi.CellClick
+        selectedTableKoleksi = DataGridKoleksi.CurrentRow.Index
+
+    End Sub
+
+    Private Sub BtnSelect_Click(sender As Object, e As EventArgs) Handles BtnSelect.Click
+        Dim dataSelected = dataPerpus.getKoleksiDataTable.Item(selectedTableKoleksi)
+
+        dataPerpus.GSnamaKoleksi = dataSelected(0)
+        dataPerpus.GSfoto = dataSelected(10)
+        dataPerpus.GSjenisKoleksi = dataSelected(1)
+        dataPerpus.GSpenerbit = dataSelected(3)
+        dataPerpus.GStahun = dataSelected(4)
+
+        Dim dataKoleksi As List(Of String) = dataPerpus.ConvertStringToKoleksi(dataSelected(9))
+
+        For Each info_tambah In dataKoleksi
+            dataPerpus.addKategori(info_tambah)
+        Next
+
+
+
+        InfoTambahKoleksi.Show()
     End Sub
 
 End Class

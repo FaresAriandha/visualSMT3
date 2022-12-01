@@ -1,0 +1,72 @@
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.AssemblyReference.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Dashboard.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.HapusKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.InfoTambahKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Resources.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.TambahKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.GenerateResource.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.GeneratedMSBuildEditorConfig.editorconfig
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.AssemblyInfoInputs.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.AssemblyInfo.vb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.CoreCompileInputs.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.exe
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.deps.json
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.runtimeconfig.json
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.pdb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\refint\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.pdb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.genruntimeconfig.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\ref\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.LatihanArray.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\SipusAlfares\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.TugasPertemuan10.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.exe
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.deps.json
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.runtimeconfig.json
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.pdb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.AssemblyReference.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Dashboard.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.HapusKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.InfoTambahKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.LatihanArray.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Resources.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.TambahKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.TugasPertemuan10.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.GenerateResource.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.GeneratedMSBuildEditorConfig.editorconfig
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.AssemblyInfoInputs.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.AssemblyInfo.vb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.CoreCompileInputs.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\refint\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.pdb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.genruntimeconfig.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas7_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\ref\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.AssemblyReference.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Dashboard.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.HapusKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.InfoTambahKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.LatihanArray.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Resources.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.TambahKoleksi.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.TugasPertemuan10.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.GenerateResource.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.GeneratedMSBuildEditorConfig.editorconfig
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.AssemblyInfoInputs.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.AssemblyInfo.vb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.vbproj.CoreCompileInputs.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\refint\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.pdb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.exe
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.deps.json
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.runtimeconfig.json
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\bin\Debug\net6.0-windows\SipusAlfares.pdb
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.genruntimeconfig.cache
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\ref\SipusAlfares.dll
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Loading.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Login.resources
+D:\PNJ\TI 2021-2025\SEM 3\Pemrograman Visual\Latihan\Vis_Tugas8_2107411020_Alfares Ariandha Nurdin\SipusAlfares\obj\Debug\net6.0-windows\SipusAlfares.Register.resources
