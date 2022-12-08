@@ -5,7 +5,7 @@
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        Login.objLogin = New Pengguna()
+        'Login.objLogin = New Pengguna()
     End Sub
     Private Sub BtnMasuk_Click(sender As Object, e As EventArgs) Handles BtnMasuk.Click
         Login.Show()

@@ -51,11 +51,11 @@ Public Class DataPerpus
         End Set
     End Property
 
-    Public Property GStahun() As String
+    Public Property GStahun() As Integer
         Get
             Return tahunTerbit
         End Get
-        Set(ByVal value As String)
+        Set(ByVal value As Integer)
             tahunTerbit = value
         End Set
     End Property
@@ -184,7 +184,7 @@ Public Class DataPerpus
     Public Function ConvertKoleksiToString(vals As List(Of String))
         Dim builder As StringBuilder = New StringBuilder()
         For Each val As String In vals
-            builder.Append(val).Append("|")
+            builder.Append(val).Append(" | ")
         Next
 
         'Convert String 
@@ -193,7 +193,7 @@ Public Class DataPerpus
     End Function
 
     Public Function ConvertStringToKoleksi(value As String)
-        Dim arr() As String = value.Split("|")
+        Dim arr() As String = value.Split(" | ")
 
         'Convert to List
         Dim vals As List(Of String) = arr.ToList()

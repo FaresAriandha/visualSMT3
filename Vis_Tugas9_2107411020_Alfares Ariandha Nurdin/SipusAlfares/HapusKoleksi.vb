@@ -6,7 +6,7 @@
         InitializeComponent()
 
         ' Add any initialization after the InitializeComponent() call.
-        LblKoleksi.Text = Dashboard.selectedCollection
+        'LblKoleksi.Text = Dashboard.selectedCollection
     End Sub
 
     Private Sub BtnHapusKoleksi_Click(sender As Object, e As EventArgs) Handles BtnHapusKoleksi.Click

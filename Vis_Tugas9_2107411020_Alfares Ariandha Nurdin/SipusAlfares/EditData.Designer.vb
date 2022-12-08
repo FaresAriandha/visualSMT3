@@ -269,6 +269,8 @@ Partial Class EditData
         '
         'DatePickTglMasuk
         '
+        Me.DatePickTglMasuk.CustomFormat = "dd MMMM yyyy"
+        Me.DatePickTglMasuk.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DatePickTglMasuk.Location = New System.Drawing.Point(514, 472)
         Me.DatePickTglMasuk.Name = "DatePickTglMasuk"
         Me.DatePickTglMasuk.Size = New System.Drawing.Size(204, 27)
@@ -450,9 +452,9 @@ Partial Class EditData
         Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium Cond", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label1.Location = New System.Drawing.Point(62, 19)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(177, 36)
+        Me.Label1.Size = New System.Drawing.Size(134, 36)
         Me.Label1.TabIndex = 36
-        Me.Label1.Text = "Tambah Koleksi"
+        Me.Label1.Text = "Edit Koleksi"
         '
         'BtnUpdateImage
         '

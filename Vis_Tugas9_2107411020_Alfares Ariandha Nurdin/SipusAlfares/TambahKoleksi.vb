@@ -17,11 +17,11 @@
         Dashboard.dataPerpus.GSjenisKoleksi = CBJenisKoleksi.SelectedItem()
         Dashboard.dataPerpus.GSdeskripsiKoleksi = RTBdesc.Text
         Dashboard.dataPerpus.GSpenerbit = TxtBoxPenerbit.Text
-        Dashboard.dataPerpus.GStahun = TxtBoxTahun.Text
+        Dashboard.dataPerpus.GStahun = Integer.Parse(TxtBoxTahun.Text)
         Dashboard.dataPerpus.GSrakBuku = TxtBoxLocRak.Text
         Dashboard.dataPerpus.GStglMasuk = DatePickTglMasuk.Value.ToString("dd MMMM yyyy")
         Dashboard.dataPerpus.GSstok = TxtBoxStock.Text
-
+        Dashboard.dataPerpus.resetKategori()
 
 
         'Dashboard.dataPerpus.GSlistKoleksi.Add(TxtBoxNama.Text)
@@ -76,7 +76,7 @@
             'MsgBox(Dashboard.dataPerpus.getKoleksiDataTable)
             'Dashboard.dataPerpus.GSlistKoleksi.Remove(Dashboard.dataPerpus.GSnamaKoleksi())
         End If
-        Dashboard.dataPerpus.resetKategori()
+
     End Sub
 
     Public Function validationItemData()
@@ -126,7 +126,7 @@
         If OpenFileDialog1.FileName.Length > 0 Then
             PcbKoleksi.Load(picKoleksiDir)
         End If
-        Dashboard.dataPerpus.GSfoto = picKoleksiDir.ToString()
+        Dashboard.dataPerpus.GSfoto = picKoleksiDir
         Dashboard.dataPerpus.GSfoto = Dashboard.dataPerpus.GSfoto.Replace("\", "/")
     End Sub
 

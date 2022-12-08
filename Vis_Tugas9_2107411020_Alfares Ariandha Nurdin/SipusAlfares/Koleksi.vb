@@ -19,7 +19,7 @@ Public Class Koleksi
                                   + "database = " + database
     End Sub
 
-    Public Function GetKoleksiDatabase() As DataTable
+    Public Function GetDataKoleksiDatabase() As DataTable
         Dim result As New DataTable
 
         dbConn.Open()
@@ -30,13 +30,14 @@ Public Class Koleksi
                                   jenis_koleksi as 'Jenis Koleksi',
                                   penerbit as 'Penerbit',
                                   tahun_terbit as 'Tahun Terbit',
-                                  tanggal_masuk_koleksi as 'Tanggal Masuk Koleksi',
+                                  DATE_FORMAT(tanggal_masuk_koleksi, '%Y/%m/%d') as 'Tanggal Masuk Koleksi',
                                   lokasi as 'Lokasi Koleksi',
                                   stock as 'Stok',
                                   bahasa as 'Bahasa'
                                   FROM koleksi"
         sqlRead = sqlCommand.ExecuteReader
         result.Load(sqlRead)
+        sqlRead.Close()
         dbConn.Close()
         Return result
     End Function
@@ -91,25 +92,25 @@ Public Class Koleksi
         dbConn.Open()
 
         sqlCommand.Connection = dbConn
-        'sqlCommand.CommandText = "SELECT id_koleksi,
-        '                          nama_koleksi,
-        '                          dir_gambar,
-        '                          deskripsi,
-        '                          penerbit,
-        '                          jenis_koleksi,
-        '                          tahun_terbit,
-        '                          lokasi,
-        '                          stock,
-        '                          bahasa,
-        '                          kategori
-        '                          FROM koleksi
-        '                          WHERE id_koleksi='" & ID & "'"
-        sqlCommand.CommandText = "SELECT *
+        sqlCommand.CommandText = "SELECT id_koleksi,
+                                  nama_koleksi,
+                                  dir_gambar,
+                                  deskripsi,
+                                  penerbit,
+                                  jenis_koleksi,
+                                  tahun_terbit,
+                                  lokasi,
+                                  DATE_FORMAT(tanggal_masuk_koleksi, '%Y/%m/%d'),
+                                  stock,
+                                  bahasa,
+                                  kategori
                                   FROM koleksi
                                   WHERE id_koleksi='" & ID & "'"
+        'sqlCommand.CommandText = "SELECT *
+        '                          FROM koleksi
+        '                          WHERE id_koleksi='" & ID & "'"
         sqlRead = sqlCommand.ExecuteReader
 
-        Dim counter As Integer = 0
 
         While sqlRead.Read()
             result.Add(sqlRead.GetString(0).ToString())
@@ -136,32 +137,32 @@ Public Class Koleksi
                                            jenis_koleksi As String,
                                            deskripsi_koleksi As String,
                                            penerbit_koleksi As String,
-                                           tahun_terbit As String,
+                                           tahun_terbit As Integer,
                                            lokasi_rak As String,
-                                           tanggal_masuk As Date,
+                                           tanggal_masuk As String,
                                            stock_koleksi As Integer,
                                            bahasa_koleksi As String,
                                            kategori_koleksi As String,
                                            dir_gambar As String)
         tahun_terbit = tahun_terbit.ToString()
 
-        'MsgBox(ID)
+        'MsgBox(jenis_koleksi)
         Try
             dbConn.Open()
             sqlCommand.Connection = dbConn
             sqlQuery = "UPDATE koleksi SET " &
-                "nama_koleksi='" & nama_koleksi & "', " &
-                "dir_gambar='" & dir_gambar & "', " &
-                "deskripsi='" & deskripsi_koleksi & "', " &
-                "penerbit='" & penerbit_koleksi & "', " &
-                "jenis_koleksi='" & jenis_koleksi & "', " &
-                "tahun_terbit='" & tahun_terbit & "', " &
-                "lokasi='" & lokasi_rak & "', " &
-                "tanggal_masuk_lokasi='" & tanggal_masuk & "', '" &
-                "stock='" & stock_koleksi & "', " &
-                "bahasas='" & bahasa_koleksi & "', " &
-                "kategori='" & kategori_koleksi & "'" &
-                "WHERE id_koleksi=" & ID & ""
+                       "nama_koleksi='" & nama_koleksi & "', " &
+                       "dir_gambar='" & dir_gambar & "', " &
+                       "deskripsi='" & deskripsi_koleksi & "', " &
+                       "penerbit='" & penerbit_koleksi & "', " &
+                       "jenis_koleksi='" & jenis_koleksi & "', " &
+                       "tahun_terbit='" & tahun_terbit & "', " &
+                       "lokasi='" & lokasi_rak & "', " &
+                       "tanggal_masuk_koleksi='" & tanggal_masuk & "', " &
+                       "stock='" & stock_koleksi & "', " &
+                       "bahasa='" & bahasa_koleksi & "', " &
+                       "kategori='" & kategori_koleksi & "'" &
+                       "WHERE id_koleksi ='" & ID & "'"
 
 
             sqlCommand = New MySqlCommand(sqlQuery, dbConn)
@@ -170,6 +171,30 @@ Public Class Koleksi
             dbConn.Close()
             sqlRead.Close()
             dbConn.Close()
+
+            'dbConn.Open()
+            'sqlCommand.Connection = dbConn
+            'sqlQuery = "UPDATE koleksi SET " &
+            '           "nama_koleksi='" & nama_koleksi & "', " &
+            '           "dir_gambar='" & dir_gambar & "', " &
+            '           "deskripsi='" & deskripsi_koleksi & "', " &
+            '           "penerbit='" & penerbit_koleksi & "', " &
+            '           "jenis_koleksi='" & jenis_koleksi & "', " &
+            '           "tahun_terbit ='" & tahun_terbit & "', " &
+            '           "lokasi='" & lokasi_rak & "', " &
+            '           "tanggal_masuk_koleksi='" & tanggal_masuk & "', " &
+            '           "stock='" & stock_koleksi & "', " &
+            '           "bahasa='" & bahasa_koleksi & "', " &
+            '           "kategori='" & kategori_koleksi & "'" &
+            '           "WHERE id_koleksi ='" & ID & "'"
+
+            'sqlCommand = New MySqlCommand(sqlQuery, dbConn)
+            'sqlRead = sqlCommand.ExecuteReader
+            'dbConn.Close()
+
+            ''perpustakaan.sqlDt,Load(sqlRead)
+            'sqlRead.Close()
+            'dbConn.Close()
 
         Catch ex As Exception
             Return ex.Message
@@ -180,6 +205,9 @@ Public Class Koleksi
 
 
     Public Function DeleteDataKoleksiByIDDatabase(ID As Integer)
+        dbConn.ConnectionString = "server = " + server + ";" + "user id = " _
+                                  + username + ";" + "password = " + password + ";" _
+                                  + "database = " + database
         dbConn.Open()
 
         Try

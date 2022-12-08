@@ -16,6 +16,7 @@
         TxtBoxPenerbit.Text = Dashboard.dataPerpus.GSpenerbit
         TxtBoxTahun.Text = Dashboard.dataPerpus.GStahun
         TxtBoxLocRak.Text = Dashboard.dataPerpus.GSrakBuku
+        DatePickTglMasuk.CustomFormat = "yyyy/MM/dd"
         DatePickTglMasuk.Text = Dashboard.dataPerpus.GStglMasuk
         TxtBoxStock.Text = Dashboard.dataPerpus.GSstok
 
@@ -42,7 +43,16 @@
     End Sub
 
     Private Sub BtnUpdateImage_Click(sender As Object, e As EventArgs) Handles BtnUpdateImage.Click
-        TambahKoleksi.openFoto()
+        OpenFileDialog1.Title = "Open Foto"
+        OpenFileDialog1.FileName = ""
+        OpenFileDialog1.Filter = "Image JPG|*.jpg|Image JPEG|*.jpeg|Image PNG|*.png|Image GIF|*.gif|Image|*.bmp|All Format|*.*"
+        OpenFileDialog1.ShowDialog()
+        Dim picKoleksiDir As String = OpenFileDialog1.FileName
+        If OpenFileDialog1.FileName.Length > 0 Then
+            PcbKoleksi.Load(picKoleksiDir)
+        End If
+        Dashboard.dataPerpus.GSfoto = picKoleksiDir
+        Dashboard.dataPerpus.GSfoto = Dashboard.dataPerpus.GSfoto.Replace("\", "/")
     End Sub
 
     Private Sub BtnUpdateKoleksi_Click(sender As Object, e As EventArgs) Handles BtnUpdateKoleksi.Click
@@ -50,7 +60,7 @@
         Dashboard.dataPerpus.GSjenisKoleksi = CBJenisKoleksi.SelectedItem().ToString()
         Dashboard.dataPerpus.GSdeskripsiKoleksi = RTBdesc.Text.ToString()
         Dashboard.dataPerpus.GSpenerbit = TxtBoxPenerbit.Text.ToString()
-        Dashboard.dataPerpus.GStahun = TxtBoxTahun.Text
+        Dashboard.dataPerpus.GStahun = Integer.Parse(TxtBoxTahun.Text)
         Dashboard.dataPerpus.GSrakBuku = TxtBoxLocRak.Text.ToString()
         Dashboard.dataPerpus.GStglMasuk = DatePickTglMasuk.Value.ToString("yyyy/MM/dd")
         Dashboard.dataPerpus.GSstok = Integer.Parse(TxtBoxStock.Text)
@@ -84,19 +94,10 @@
         'MessageBox.Show(Dashboard.dataPerpus.GSfoto)
         'MessageBox.Show(Dashboard.dataPerpus.GSrakBuku)
 
-
-
-        If TambahKoleksi.validationItemData() IsNot Nothing Then
-            MsgBox(TambahKoleksi.validationItemData(), MsgBoxStyle.Critical, "Kesalahan")
-        Else
-
-            'Dashboard.dataPerpus.AddKoleksi(Dashboard.dataPerpus.GSnamaKoleksi())
-            'Dashboard.ListBoxKoleksi.Items.Add(Dashboard.dataPerpus.GSnamaKoleksi())
-            'InfoTambahKoleksi.ListBoxKategori.Items.Clear()
-            Dim convertedKoleksi = Dashboard.dataPerpus.ConvertKoleksiToString(Dashboard.dataPerpus.GSinfoKategori)
-            MsgBox(Dashboard.selectedTableKoleksiDB)
-            'MsgBox(Dashboard.dataPerpus.GSjenisKoleksi)
-            Dashboard.koleksiData.UpdateDataKoleksiByIDDatabase(
+        Dim convertedKoleksi = Dashboard.dataPerpus.ConvertKoleksiToString(Dashboard.dataPerpus.GSinfoKategori)
+        'MsgBox(Dashboard.selectedTableKoleksiDB)
+        'MsgBox(Dashboard.dataPerpus.GSjenisKoleksi)
+        Dashboard.koleksiData.UpdateDataKoleksiByIDDatabase(
                                    Dashboard.selectedTableKoleksiDB,
                                    Dashboard.dataPerpus.GSnamaKoleksi,
                                    Dashboard.dataPerpus.GSjenisKoleksi,
@@ -110,11 +111,21 @@
                                    convertedKoleksi,
                                    Dashboard.dataPerpus.GSfoto)
 
-            InfoTambahKoleksi.Show()
-            Dashboard.dataPerpus.GSlistKoleksi.Clear()
+        InfoTambahKoleksi.Show()
+        Dashboard.dataPerpus.GSlistKoleksi.Clear()
 
-            'MsgBox(Dashboard.dataPerpus.getKoleksiDataTable)
-            'Dashboard.dataPerpus.GSlistKoleksi.Remove(Dashboard.dataPerpus.GSnamaKoleksi())
-        End If
+
+        'If TambahKoleksi.validationItemData() IsNot Nothing Then
+        '    MsgBox(TambahKoleksi.validationItemData(), MsgBoxStyle.Critical, "Kesalahan")
+        'Else
+
+        '    'Dashboard.dataPerpus.AddKoleksi(Dashboard.dataPerpus.GSnamaKoleksi())
+        '    'Dashboard.ListBoxKoleksi.Items.Add(Dashboard.dataPerpus.GSnamaKoleksi())
+        '    'InfoTambahKoleksi.ListBoxKategori.Items.Clear()
+
+
+        '    'MsgBox(Dashboard.dataPerpus.getKoleksiDataTable)
+        '    'Dashboard.dataPerpus.GSlistKoleksi.Remove(Dashboard.dataPerpus.GSnamaKoleksi())
+        'End If
     End Sub
 End Class

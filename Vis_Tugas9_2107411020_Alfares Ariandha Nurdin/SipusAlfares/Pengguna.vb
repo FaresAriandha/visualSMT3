@@ -51,27 +51,24 @@ Public Class Pengguna
         Return Convert.ToBase64String(ms.ToArray)
     End Function
 
-    Public Function CheckAuth(ByVal username As String, ByVal plainPassword As String) As String
+    Public Function CheckAuth(ByVal plainUsername As String, ByVal plainPassword As String) As String
         'Static Password
         'Dim realPassword As String = EncryptData("1234")
         'Dim realUsername As String = "fares"
 
-        Dim status As String = ""
-
+        'MsgBox(GSusername())
         For Each akun In koleksiUser
-
-            MsgBox(akun(0))
-
-            If username = akun(0) And String.Compare(EncryptData(plainPassword), EncryptData(akun(1))) = 0 Then
-                status = "Login Berhasil"
-            ElseIf String.Compare(username, akun(0)) <> 0 Then
-                status = "Username not find"
-            Else
-                status = "Wrong password"
+            'MsgBox(akun(0))
+            If String.Compare(plainUsername, akun(0)) = 0 And String.Compare(EncryptData(plainPassword), EncryptData(akun(1))) = 0 Then
+                Return "Login Berhasil"
+            ElseIf String.Compare(plainUsername, akun(0)) = 0 And String.Compare(EncryptData(plainPassword), EncryptData(akun(1))) <> 0 Then
+                Return "Wrong password"
             End If
+            'MsgBox(EncryptData(plainPassword) & EncryptData(akun(1)))
         Next
 
-        Return status
+
+        Return "Username not found"
         'MsgBox(String.Join(", ", koleksiUser.ToArray))
     End Function
 

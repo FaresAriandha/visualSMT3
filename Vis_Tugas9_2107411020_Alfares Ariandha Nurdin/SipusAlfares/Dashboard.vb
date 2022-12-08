@@ -5,6 +5,7 @@
     Public selectedTableKoleksi As Integer
     Public selectedTableKoleksiDB As Integer
     Public selectedTableKoleksiNama As String
+    Dim selectedRow As DataGridViewRow
 
     Public Sub New()
 
@@ -142,34 +143,36 @@
     End Sub
 
     Private Sub ReloadDataTableDatabase()
-        DataGridKoleksiDB.DataSource = koleksiData.GetKoleksiDatabase()
+        DataGridKoleksiDB.DataSource = koleksiData.GetDataKoleksiDatabase()
     End Sub
 
     Private Sub DataGridKoleksiDB_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridKoleksiDB.CellClick
         Dim index As Integer = e.RowIndex
-        Dim selectedRow As DataGridViewRow
+
         selectedRow = DataGridKoleksiDB.Rows(index)
         'MsgBox(selectedRow)
         selectedTableKoleksiDB = selectedRow.Cells(0).Value
         'MsgBox(selectedTableKoleksiDB)
-        selectedTableKoleksiNama = selectedRow.Cells(1).Value
+
 
     End Sub
 
     Private Sub BtnUpdate_Click(sender As Object, e As EventArgs) Handles BtnUpdate.Click
+        dataPerpus.resetKategori()
         Try
+
             showSelectedDB()
             EditData.Show()
         Catch ex As Exception
             MsgBox("You Must Min. 1 Collection", MsgBoxStyle.Critical, "Failure")
         End Try
-        dataPerpus.resetKategori()
+
     End Sub
 
     Private Sub BtnRemove_Click(sender As Object, e As EventArgs) Handles BtnRemove.Click
-        HapusKoleksi.LblKoleksi.Text = selectedTableKoleksiNama
-
+        selectedTableKoleksiNama = selectedRow.Cells(1).Value
         If selectedTableKoleksiNama IsNot Nothing Then
+            HapusKoleksi.LblKoleksi.Text = selectedTableKoleksiNama
             HapusKoleksi.Show()
         Else
             MsgBox("You Must Min. 1 Collection", MsgBoxStyle.Critical, "Failure")
