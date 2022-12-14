@@ -1,4 +1,6 @@
-Ini Adalah Folder Pemrograman Visual SMT 3
+Ini adalah Folder Pemrograman Visual
+<br/>
+TI / 3A
 <br/>
 Politeknik Negeri Jakarta
 <br/>
